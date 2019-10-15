@@ -1,0 +1,41 @@
+html {box-sizing:border-box;} 
+*,*::before,*::after{box-sizing:inherit;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.header {
+    
+    font-family: sans-serif;
+    color: white;
+    width: 500px;
+    height: 40px;
+    background: rgb(29, 192,207);
+    border: solid 1px  rgb(29, 192,207);
+    padding: 10px;
+  
+    
+}
+
+.content {
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    font-family: sans-serif;
+    border: solid 1px  rgb(29, 192,207);
+    display: none;
+    overflow: scroll;
+    color: gray;
+    
+}
+
+
+li {
+    list-style: none;
+}
+
+
